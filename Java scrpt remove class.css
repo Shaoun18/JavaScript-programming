@@ -1,0 +1,36 @@
+#demo{background:#ddd;
+width : 100%;
+text-align:center;
+padding:20px;
+border-radius:3px;
+font-family:arial;
+margin-top:10px;
+display:none;
+
+}
+
+.showMenu{display:block !important;
+animation-name : menuAnimate !important;
+animation-duration:1s !important;
+transform-origin:top;
+
+}
+
+keyframes menuAnimate{	
+from{opacity:0;transform:scaleY(0)};
+to{opacity:1;transform:scaleY(1)};
+
+}
+
+#openmenu{width:50px;
+background:black;
+color : white;
+padding:5px;
+border : none;
+border-radius:3px;
+
+}
+
+#openmenu i{font-size:20px;
+
+}

@@ -1,0 +1,36 @@
+<!Doctype html>
+<html>
+<head>
+	<meta charset = "UTF-8">
+	
+		<title>Java Script this keyword </title>
+		
+</head>
+<body>
+
+	<div id = "demo">
+	
+	</div>
+	
+	<script type = "text/javascript">
+	
+		var myobj = {
+			
+			fname : "Shaoun",
+			lname : "Chandra Shill",
+			
+			fullname : function(){
+			
+				return this.fname + " " + this.lname;   // this keyword uses 
+				
+			}
+			
+		};
+	
+		document.querySelector("#demo").innerHTML = myobj.fullname();
+	
+	</script>
+
+
+</body>
+</html>

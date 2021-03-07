@@ -1,0 +1,12 @@
+#demo1{background:orange;
+width:350px;
+text-align:center;
+line-height:200px;
+color:white;
+font-size:52px;
+margin-top:50px;
+transform : scaleY(0);
+transform-origin:top;
+transition : all 1s;
+
+}

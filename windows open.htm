@@ -1,0 +1,27 @@
+<!Doctype html>
+<html>
+<head>
+	<meta charset = "UTF-8">
+	
+		<title>Java Script Print Option </title>
+		
+</head>
+<body>
+
+	<button id = "windowopen">Print</button>
+	
+	<script type = "text/javascript">
+	
+	document.querySelector("#windowopen").addEventListener("click",function(){
+		
+	var mywindow = window.open(null,"Print window","height = 500px,width = 700px,left = 350%,top = 100px");
+	//window.open tags uses for print option 
+			
+	mywindow.document.write("<h1 style = 'text-align : center;line'>Hello New window!</h1>");
+			
+	});
+	
+	</script>
+
+</body>
+</html>
